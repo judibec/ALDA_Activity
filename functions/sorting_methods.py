@@ -54,6 +54,7 @@ def mergeSort(array):
     Complejidad O(n^2)
 """
 
+
 def shellSort(input_list):
     gap = len(input_list) // 2
     while gap > 0:

@@ -12,7 +12,6 @@ shellSort = [1, 4, 5, 7, 10, 30, 52, 120, 500]
 
 
 class testSortingMethods(unittest.TestCase):
-
     def test_bubble_sort(self):
         sm.bubbleSort(listBubble)
         self.assertEqual(bubbleSort, listBubble)
@@ -26,5 +25,5 @@ class testSortingMethods(unittest.TestCase):
         self.assertEqual(shellSort, listShell)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main
